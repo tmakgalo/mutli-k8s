@@ -2,13 +2,13 @@ apiVersion: cert-manager.io/v1
 
 kind: Certificate
 metadata:
-  name: yourdomain-com-tls
+  name: tebzadedj-com-tls
 spec:
-  secretName: yourdomain-com
+  secretName: tebzadedj-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: yourdomain.com
+  commonName: tebzadedj.com
   dnsNames:
-    - yourdomain.com
-    - www.yourdomain.com
+    - tebzadedj.com
+    - www.tebzadedj.com
