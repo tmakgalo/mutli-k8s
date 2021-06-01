@@ -11,11 +11,11 @@ metadata:
 spec:
   tls:
     - hosts:
-        - yourdomain.com
-        - www.yourdomain.com
-      secretName: yourdomain-com
+        - tebzadedj.com
+        - www.tebzadedj.com
+      secretName: tebzadedj-com
   rules:
-    - host: yourdomain.com
+    - host: tebzadedj.com
       http:
         paths:
           - path: /?(.*)
@@ -26,7 +26,7 @@ spec:
             backend:
               serviceName: server-cluster-ip-service
               servicePort: 5000
-    - host: www.yourdomain.com
+    - host: www.tebzadedj.com
       http:
         paths:
           - path: /?(.*)
